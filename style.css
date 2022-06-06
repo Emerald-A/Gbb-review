@@ -64,3 +64,19 @@ body,html{
     font-family: 'Fredoka', sans-serif;
     font-size: 30px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .container h1{
+        font-size: 40px;
+        font-family: 'Fredoka', sans-serif;
+    }
+
+    .container{
+        width: 100%;
+        min-height: 400px;
+        position: relative;
+        margin-top: 5%;
+    }
+
+  }
